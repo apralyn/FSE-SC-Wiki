@@ -1,5 +1,5 @@
 exports.home = (req, res) => {
-  req.body;
-  res.status;
-  console.log("testing");
+  let body = req.body;
+  let stat = res.status.outputData;
+  console.log("testing", body, stat);
 };
