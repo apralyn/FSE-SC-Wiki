@@ -1,23 +1,29 @@
 <template>
   <div class="home">
     <h1>Show Control Wiki Page</h1>
-    <div class="search-bar">
-      <SearchBar />
+    <SearchBar />
+    <FloatCards />
+    <div class="cards">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
     </div>
   </div>
 </template>
 <script>
 import SearchBar from "../components/SearchBar.vue"
+import FloatCards from "../components/FloatCards.vue"
+
 export default {
   name: "HomeView",
   components: {
     SearchBar,
+    FloatCards,
   }
 }
 </script>
 <style scope>
+
 .home {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   margin: auto;
   display: flex;
